@@ -1,0 +1,14 @@
+{
+  "Name": "Windows-Keyboard-Mouse-Filter",
+  "DisplayName": "Windows Keyboard & Mouse Filter",
+  "Service": "WindowsKeyboardMouseFilter",
+  "DriverFile": "WindowsKeyboardMouseFilter.sys",
+  "Version": "0.1.0.0",
+  "InputMask": 3,
+  "ControllerMask": 0,
+  "Packages": [
+    "WindowsKeyboardMouseFilterKeyboard.inf",
+    "WindowsKeyboardMouseFilterMouse.inf",
+    "WindowsKeyboardMouseFilterControl.inf"
+  ]
+}

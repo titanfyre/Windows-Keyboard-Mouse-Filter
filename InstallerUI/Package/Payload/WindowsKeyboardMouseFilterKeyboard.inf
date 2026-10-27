@@ -1,0 +1,38 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=Keyboard
+ClassGuid={4D36E96B-E325-11CE-BFC1-08002BE10318}
+Provider=%Provider%
+CatalogFile=WindowsKeyboardMouseFilterKeyboard.cat
+DriverVer=10/24/2026,0.1.0.0
+PnpLockdown=1
+[Manufacturer]
+%Provider%=Models,NTamd64.10.0...16299
+[Models.NTamd64.10.0...16299]
+%Name%=Mapper,HID_DEVICE_SYSTEM_KEYBOARD
+[Mapper.NT]
+CopyFiles=Files
+[Mapper.NT.Services]
+AddService=WindowsKeyboardMouseFilter,2,Service
+[Service]
+DisplayName=%ServiceName%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%13%\WindowsKeyboardMouseFilter.sys
+[Mapper.NT.Wdf]
+KmdfService=WindowsKeyboardMouseFilter,Wdf
+[Wdf]
+KmdfLibraryVersion=1.15
+[DestinationDirs]
+Files=13
+[Files]
+WindowsKeyboardMouseFilter.sys
+[SourceDisksNames]
+1=%Provider%,,,
+[SourceDisksFiles]
+WindowsKeyboardMouseFilter.sys=1
+[Strings]
+Provider="Keyboard Mouse Filter Project"
+Name="WindowsKeyboardMouseFilter HID Keyboard Mapper"
+ServiceName="WindowsKeyboardMouseFilter"
