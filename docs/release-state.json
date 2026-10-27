@@ -2,7 +2,11 @@
   "Schema": 1,
   "Product": "Windows-Keyboard-Mouse-Filter",
   "DriverVersion": "0.1.0.0",
-  "SigningPending": true,
   "DemoSeconds": 3600,
-  "Publication": "SDK and sources; installable payload pending Microsoft signature."
+  "SigningPending": false,
+  "MicrosoftSigned": true,
+  "SignatureAndSubmissionMatchVerified": true,
+  "SubmissionId": "1152921505702243668",
+  "SignedInstallerLiveValidationPending": true,
+  "ReleaseUrl": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/releases/tag/v0.1.0.0"
 }
