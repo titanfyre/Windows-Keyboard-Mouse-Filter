@@ -1,0 +1,48 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%Provider%
+CatalogFile=WindowsKeyboardMouseFilterControl.cat
+DriverVer=10/24/2026,0.1.0.0
+PnpLockdown=1
+[Manufacturer]
+%Provider%=Models,NTamd64.10.0...16299
+[Models.NTamd64.10.0...16299]
+%Name%=Control,ROOT\WindowsKeyboardMouseFilterControl
+[Control.NT]
+CopyFiles=Files
+[Control.NT.Services]
+AddService=WindowsKeyboardMouseFilter,2,Service
+AddService=WindowsKeyboardMouseFilterDemoClock,0,TrialClockService
+[Service]
+DisplayName=%ServiceName%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%13%\WindowsKeyboardMouseFilter.sys
+[Control.NT.Wdf]
+KmdfService=WindowsKeyboardMouseFilter,Wdf
+[Wdf]
+KmdfLibraryVersion=1.15
+[DestinationDirs]
+Files=13
+[Files]
+DemoSessionClock.sys
+WindowsKeyboardMouseFilter.sys
+[SourceDisksNames]
+1=%Provider%,,,
+[SourceDisksFiles]
+DemoSessionClock.sys=1
+WindowsKeyboardMouseFilter.sys=1
+[Strings]
+Provider="Keyboard Mouse Filter Project"
+Name="WindowsKeyboardMouseFilter Control Endpoint"
+ServiceName="WindowsKeyboardMouseFilter"
+
+[TrialClockService]
+DisplayName="TitanCSA per-boot demo clock"
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%13%\DemoSessionClock.sys
