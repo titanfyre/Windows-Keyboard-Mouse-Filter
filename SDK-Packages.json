@@ -2,20 +2,27 @@
   "project": "Windows-Keyboard-Mouse-Filter",
   "packages": [
     {
-      "directory": "Windows-Keyboard-Mouse-Filter-CPP-vcpkg",
+      "directory": "packaging/native",
       "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "distribution": "GitHub source and downloadable release artifacts",
+      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
     },
     {
-      "directory": "Windows-Keyboard-Mouse-Filter-CPP-conan",
+      "directory": "packaging/native",
       "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "distribution": "GitHub source and downloadable release artifacts",
+      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
     },
     {
-      "directory": "Windows-Keyboard-Mouse-Filter-CPP-nuget",
+      "directory": "packaging/native",
       "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "distribution": "GitHub source and downloadable release artifacts",
+      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
     }
   ],
-  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented."
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/releases/download/sdk-v0.1.0/windows-keyboard-mouse-filter-sdk-0.1.0.tar.gz",
+    "sha256": "1298fc38143cd928354f410213c73888dee3ec26818721fcb1e722839c6e86f7"
+  }
 }
