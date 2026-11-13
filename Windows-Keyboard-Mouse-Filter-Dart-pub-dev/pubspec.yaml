@@ -1,0 +1,10 @@
+name: windows_keyboard_mouse_filter
+description: Direct native Windows x64 Windows-Keyboard-Mouse-Filter SDK with typed input edits, bounded ownership, partial sends and isolate cancellation.
+version: 1.0.0
+homepage: https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter
+repository: https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter
+documentation: https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/tree/main/Windows-Keyboard-Mouse-Filter-Dart-pub-dev/doc
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+platforms:
+  windows:
