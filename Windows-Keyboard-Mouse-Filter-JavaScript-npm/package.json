@@ -1,0 +1,38 @@
+{
+  "name": "windows-keyboard-mouse-filter",
+  "version": "1.0.0",
+  "main": "index.cjs",
+  "types": "index.d.ts",
+  "description": "Direct Windows x64 Windows-Keyboard-Mouse-Filter SDK for JavaScript and TypeScript",
+  "license": "MIT",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "index.cjs",
+    "index.d.ts",
+    "prebuilds/",
+    "LICENSE",
+    "README.md",
+    "docs/",
+    "examples/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter.git",
+    "directory": "Windows-Keyboard-Mouse-Filter-JavaScript-npm"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/tree/main/Windows-Keyboard-Mouse-Filter-JavaScript-npm#readme",
+  "bugs": {
+    "url": "https://github.com/titanfyre/Windows-Keyboard-Mouse-Filter/issues"
+  }
+}
