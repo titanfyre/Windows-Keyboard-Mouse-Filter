@@ -1,5 +1,0 @@
-!lib/native/
-!lib/native/WindowsKeyboardMouseFilterBridge.dll
-.dart_tool/
-pubspec.lock
-RELEASED.json
