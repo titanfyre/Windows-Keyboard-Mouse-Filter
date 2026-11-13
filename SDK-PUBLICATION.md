@@ -11,7 +11,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Python/pypi | built_fixture_and_production_verified | windows-keyboard-mouse-filter [Source](Windows-Keyboard-Mouse-Filter-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [windows-keyboard-mouse-filter](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [windows-keyboard-mouse-filter](https://crates.io/crates/windows-keyboard-mouse-filter) [Source](Windows-Keyboard-Mouse-Filter-Rust-cargo/) |
-| JavaScript/npm | registry_rate_limit_wait | [windows-keyboard-mouse-filter](https://www.npmjs.com/package/windows-keyboard-mouse-filter) [Source](Windows-Keyboard-Mouse-Filter-JavaScript-npm/) |
+| JavaScript/npm | registry_rate_limit_wait | windows-keyboard-mouse-filter [Source](Windows-Keyboard-Mouse-Filter-JavaScript-npm/) |
 | Java/maven | published_install_verified | [windows-keyboard-mouse-filter](https://central.sonatype.com/artifact/io.github.titancsa/windows-keyboard-mouse-filter/1.0.0) [Source](Windows-Keyboard-Mouse-Filter-Java-maven/) |
 | Java/jitpack | published_install_verified | [windows-keyboard-mouse-filter](https://jitpack.io/#titanfyre/Windows-Keyboard-Mouse-Filter/java-sdk-v1.0.0) [Source](Windows-Keyboard-Mouse-Filter-Java-maven/) |
 | Go/modules | published_install_verified | [windows-keyboard-mouse-filter](https://pkg.go.dev/github.com/titanfyre/Windows-Keyboard-Mouse-Filter/Windows-Keyboard-Mouse-Filter-Go-modules@v1.0.0) [Source](Windows-Keyboard-Mouse-Filter-Go-modules/) |

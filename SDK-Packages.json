@@ -152,7 +152,8 @@
       "recipe_format": "v1",
       "v1_source_build_tests_passed": true,
       "personal_maintainer_confirmation_required": true,
-      "official_review_status": "v1_recipe_prepared_requires_submission_or_existing_pr_update",
+      "pull_request": "https://github.com/conda-forge/staged-recipes/pull/35634",
+      "official_review_status": "submitted_requires_ci_review_and_personal_maintainer_confirmation",
       "github_directory": "packaging/conda"
     },
     "Rust/cargo": {
@@ -175,7 +176,7 @@
       "directory": "Windows-Keyboard-Mouse-Filter-JavaScript-npm",
       "registry_published": false,
       "documentation_bundled": true,
-      "url": "https://www.npmjs.com/package/windows-keyboard-mouse-filter",
+      "url": null,
       "public_consumer_verified": false,
       "module": "windows_keyboard_mouse_filter",
       "dll_name": "WindowsKeyboardMouseFilterBridge.dll",
