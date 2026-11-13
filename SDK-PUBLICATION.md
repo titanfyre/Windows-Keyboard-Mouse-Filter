@@ -5,11 +5,11 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Target | Status | Package / documentation |
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | windows-keyboard-mouse-filter |
-| CPP/conan | public_recipe_builds_locally |  [Source](packaging/native/) |
+| CPP/conan | published_custom_source_index | [windows-keyboard-mouse-filter](https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index) [Source](packaging/native/) |
 | CPP/nuget | paused_pending_owner_email_confirmation | Windows-Keyboard-Mouse-Filter.Native |
 | NET/nuget | built_verified_publication_on_hold_by_owner | WindowsKeyboardMouseFilter.SDK [Source](Windows-Keyboard-Mouse-Filter-NET-nuget/) |
 | Python/pypi | built_fixture_and_production_verified | windows-keyboard-mouse-filter [Source](Windows-Keyboard-Mouse-Filter-Python-pypi/) |
-| Python/conda-forge | built_tested_requires_official_review | windows-keyboard-mouse-filter [Source](packaging/conda/) |
+| Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [windows-keyboard-mouse-filter](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [windows-keyboard-mouse-filter](https://crates.io/crates/windows-keyboard-mouse-filter) [Source](Windows-Keyboard-Mouse-Filter-Rust-cargo/) |
 | JavaScript/npm | awaiting_browser_publication_authentication | [windows-keyboard-mouse-filter](https://www.npmjs.com/package/windows-keyboard-mouse-filter) [Source](Windows-Keyboard-Mouse-Filter-JavaScript-npm/) |
 | Java/maven | published_install_verified | [windows-keyboard-mouse-filter](https://central.sonatype.com/artifact/io.github.titancsa/windows-keyboard-mouse-filter/1.0.0) [Source](Windows-Keyboard-Mouse-Filter-Java-maven/) |
