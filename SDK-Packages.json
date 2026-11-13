@@ -170,7 +170,7 @@
       "api_prefix": "windows_keyboard_mouse_filter_"
     },
     "JavaScript/npm": {
-      "status": "awaiting_browser_publication_authentication",
+      "status": "registry_publication_requires_action",
       "name": "windows-keyboard-mouse-filter",
       "version": "1.0.0",
       "directory": "Windows-Keyboard-Mouse-Filter-JavaScript-npm",
