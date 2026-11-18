@@ -106,18 +106,18 @@ Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK 
 | Conan | `windows-keyboard-mouse-filter` | `conan install --requires=windows-keyboard-mouse-filter/0.1.0 -r titancsa --build=missing -s compiler.cppstd=17` |
 | NuGet | `Windows-Keyboard-Mouse-Filter.Native` | `Install-Package Windows-Keyboard-Mouse-Filter.Native -Version 0.1.0` |
 | NuGet | `WindowsKeyboardMouseFilter.SDK` | `dotnet add package WindowsKeyboardMouseFilter.SDK --version 1.0.0` |
-| PyPI | `windows_keyboard_mouse_filter` | Commande prevue apres publication : `python -m pip install windows-keyboard-mouse-filter==1.0.0` |
+| PyPI | `windows-keyboard-mouse-filter` | Commande prevue apres publication : `python -m pip install windows-keyboard-mouse-filter==1.0.0` |
 | Conda | `windows-keyboard-mouse-filter` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge windows-keyboard-mouse-filter` (canal TitanCSA) |
-| crates.io | `windows_keyboard_mouse_filter` | `cargo add windows-keyboard-mouse-filter@1.0.0` |
-| npm | `windows_keyboard_mouse_filter` | Commande prevue apres publication : `npm install windows-keyboard-mouse-filter@1.0.0` |
+| crates.io | `windows-keyboard-mouse-filter` | `cargo add windows-keyboard-mouse-filter@1.0.0` |
+| npm | `windows-keyboard-mouse-filter` | Commande prevue apres publication : `npm install windows-keyboard-mouse-filter@1.0.0` |
 | Maven Central | `io.github.titancsa:windows-keyboard-mouse-filter` | `io.github.titancsa:windows-keyboard-mouse-filter:1.0.0 (pom.xml / Gradle)` |
 | JitPack | `com.github.titanfyre:Windows-Keyboard-Mouse-Filter` | `com.github.titanfyre:Windows-Keyboard-Mouse-Filter:java-sdk-v1.0.0 (avec le depot JitPack)` |
 | Go Modules | `github.com/titanfyre/Windows-Keyboard-Mouse-Filter/Windows-Keyboard-Mouse-Filter-Go-modules` | `go get github.com/titanfyre/Windows-Keyboard-Mouse-Filter/Windows-Keyboard-Mouse-Filter-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/Windows-Keyboard-Mouse-Filter/Windows-Keyboard-Mouse-Filter-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Windows-Keyboard-Mouse-Filter/Windows-Keyboard-Mouse-Filter-Go-modules@v1.0.0` |
-| PowerShell Gallery | `windows_keyboard_mouse_filter` | `Install-Module WindowsKeyboardMouseFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| PowerShell Gallery | `WindowsKeyboardMouseFilter` | `Install-Module WindowsKeyboardMouseFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `windows_keyboard_mouse_filter` | `dart pub add windows_keyboard_mouse_filter:1.0.0` |
-| RubyGems | `windows_keyboard_mouse_filter` | `gem install windows-keyboard-mouse-filter -v 1.0.0` |
-| Packagist | `windows_keyboard_mouse_filter` | Commande prevue apres publication : `composer require titancsa/windows-keyboard-mouse-filter:1.0.0` |
+| RubyGems | `windows-keyboard-mouse-filter` | `gem install windows-keyboard-mouse-filter -v 1.0.0` |
+| Packagist | `titancsa/windows-keyboard-mouse-filter` | Commande prevue apres publication : `composer require titancsa/windows-keyboard-mouse-filter:1.0.0` |
 
 Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Windows-Keyboard-Mouse-Filter/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
 
