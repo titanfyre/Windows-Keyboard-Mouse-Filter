@@ -3,7 +3,11 @@
 <!-- simple-start:start -->
 Use input from a physical keyboard or mouse in your Windows app.
 
-**Start here.** Follow the install steps, then try the included example with your device.
+[First steps](#first-steps) · [Develop](#sdk-and-packages) · [Maintain](https://github.com/TitanCSA/sdk-packages/blob/main/CONTRIBUTING.md)
+
+## First steps
+
+Follow the install steps, then try the included example with your device.
 <!-- simple-start:end -->
 
 <!-- full-version-contact:start -->
@@ -109,32 +113,11 @@ damage, to the extent permitted by applicable law. Signing does not guarantee
 compatibility with every device, game or other installed driver.
 
 <!-- central-sdk-packages:start -->
-## Paquets et installation
+<a name="paquets-et-installation"></a>
 
-Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK dedie](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Windows-Keyboard-Mouse-Filter). Choisis le paquet a installer puis execute sa commande dans son dossier.
+## SDK and packages
 
-| Registre | Paquet | Installation / utilisation |
-| --- | --- | --- |
-| vcpkg | `windows-keyboard-mouse-filter` | `vcpkg install windows-keyboard-mouse-filter:x64-windows` |
-| Conan | `windows-keyboard-mouse-filter` | `conan install --requires=windows-keyboard-mouse-filter/0.1.0 -r titancsa --build=missing -s compiler.cppstd=17` |
-| NuGet | `Windows-Keyboard-Mouse-Filter.Native` | `Install-Package Windows-Keyboard-Mouse-Filter.Native -Version 0.1.0` |
-| NuGet | `WindowsKeyboardMouseFilter.SDK` | `dotnet add package WindowsKeyboardMouseFilter.SDK --version 1.0.0` |
-| PyPI | `windows-keyboard-mouse-filter` | Commande prevue apres publication : `python -m pip install windows-keyboard-mouse-filter==1.0.0` |
-| Conda | `windows-keyboard-mouse-filter` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge windows-keyboard-mouse-filter` (canal TitanCSA) |
-| crates.io | `windows-keyboard-mouse-filter` | `cargo add windows-keyboard-mouse-filter@1.0.0` |
-| npm | `windows-keyboard-mouse-filter` | Commande prevue apres publication : `npm install windows-keyboard-mouse-filter@1.0.0` |
-| Maven Central | `io.github.titancsa:windows-keyboard-mouse-filter` | `io.github.titancsa:windows-keyboard-mouse-filter:1.0.0 (pom.xml / Gradle)` |
-| JitPack | `com.github.titanfyre:Windows-Keyboard-Mouse-Filter` | `com.github.titanfyre:Windows-Keyboard-Mouse-Filter:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| Go Modules | `github.com/titanfyre/Windows-Keyboard-Mouse-Filter/Windows-Keyboard-Mouse-Filter-Go-modules` | `go get github.com/titanfyre/Windows-Keyboard-Mouse-Filter/Windows-Keyboard-Mouse-Filter-Go-modules@v1.0.0` |
-| pkg.go.dev | `github.com/titanfyre/Windows-Keyboard-Mouse-Filter/Windows-Keyboard-Mouse-Filter-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Windows-Keyboard-Mouse-Filter/Windows-Keyboard-Mouse-Filter-Go-modules@v1.0.0` |
-| PowerShell Gallery | `WindowsKeyboardMouseFilter` | `Install-Module WindowsKeyboardMouseFilter -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `windows_keyboard_mouse_filter` | `dart pub add windows_keyboard_mouse_filter:1.0.0` |
-| RubyGems | `windows-keyboard-mouse-filter` | `gem install windows-keyboard-mouse-filter -v 1.0.0` |
-| Packagist | `titancsa/windows-keyboard-mouse-filter` | `composer require titancsa/windows-keyboard-mouse-filter:1.0.0` |
-
-Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Windows-Keyboard-Mouse-Filter/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
-
-Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
+Choose a language in the [SDK and package guide](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Windows-Keyboard-Mouse-Filter#readme) for exact install commands and examples. If your example requires a driver or app, install it separately.
 <!-- central-sdk-packages:end -->
 
 ## Commercial integration and support
